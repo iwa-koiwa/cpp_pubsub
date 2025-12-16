@@ -1,0 +1,65 @@
+[0.031s] Invoking command in '/ros_project/src/cpp_pubsub/build/cpp_pubsub': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros_project/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/ros_project/src/cpp_pubsub/install/cpp_pubsub
+[0.167s] -- The C compiler identification is GNU 11.4.0
+[0.305s] -- The CXX compiler identification is GNU 11.4.0
+[0.324s] -- Detecting C compiler ABI info
+[0.497s] -- Detecting C compiler ABI info - done
+[0.514s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.515s] -- Detecting C compile features
+[0.516s] -- Detecting C compile features - done
+[0.523s] -- Detecting CXX compiler ABI info
+[0.727s] -- Detecting CXX compiler ABI info - done
+[0.744s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.745s] -- Detecting CXX compile features
+[0.746s] -- Detecting CXX compile features - done
+[0.757s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.127s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.407s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.554s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.574s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.604s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.839s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.849s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.098s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.180s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.347s] -- Looking for pthread.h
+[2.530s] -- Looking for pthread.h - found
+[2.531s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.717s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.721s] -- Found Threads: TRUE  
+[3.015s] -- Configuring done
+[3.049s] -- Generating done
+[3.061s] -- Build files have been written to: /ros_project/src/cpp_pubsub/build/cpp_pubsub
+[3.077s] Invoked command in '/ros_project/src/cpp_pubsub/build/cpp_pubsub' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros_project/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/ros_project/src/cpp_pubsub/install/cpp_pubsub
+[3.081s] Invoking command in '/ros_project/src/cpp_pubsub/build/cpp_pubsub': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros_project/src/cpp_pubsub/build/cpp_pubsub -- -j16 -l16
+[3.205s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[3.205s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[10.930s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[11.214s] [ 75%] Built target talker
+[16.659s] [100%] [32m[1mLinking CXX executable listener[0m
+[17.255s] [100%] Built target listener
+[17.278s] Invoked command in '/ros_project/src/cpp_pubsub/build/cpp_pubsub' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros_project/src/cpp_pubsub/build/cpp_pubsub -- -j16 -l16
+[17.300s] Invoking command in '/ros_project/src/cpp_pubsub/build/cpp_pubsub': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros_project/src/cpp_pubsub/build/cpp_pubsub
+[17.315s] -- Install configuration: ""
+[17.316s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker
+[17.319s] -- Set runtime path of "/ros_project/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[17.319s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener
+[17.329s] -- Set runtime path of "/ros_project/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[17.329s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[17.330s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[17.331s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[17.331s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[17.332s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[17.332s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[17.333s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[17.333s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[17.334s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[17.334s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[17.335s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[17.335s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[17.336s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[17.336s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[17.337s] -- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[17.342s] Invoked command in '/ros_project/src/cpp_pubsub/build/cpp_pubsub' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros_project/src/cpp_pubsub/build/cpp_pubsub

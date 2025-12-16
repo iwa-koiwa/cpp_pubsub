@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.000331] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001687] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.025067] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.026754] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/ros_project/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/ros_project/src/cpp_pubsub/install/cpp_pubsub'], 'cwd': '/ros_project/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-0/default,1289,1'), ('BYOBU_SED', 'sed'), ('BYOBU_LIGHT', '\\#EEEEEE'), ('BYOBU_EDITOR', 'sensible-editor'), ('HOSTNAME', 'iwa-AUSU'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('BYOBU_TIME', '%H:%M:%S'), ('OLDPWD', '/ros_project/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('BYOBU_PREFIX', '/usr'), ('BYOBU_WINDOW_NAME', '-'), ('COLCON_PREFIX_PATH', '/ros_project/src/cpp_pubsub/install'), ('ROS_DISTRO', 'humble'), ('BYOBU_TERM', 'screen-256color'), ('BYOBU_ULIMIT', 'ulimit'), ('BYOBU_HIGHLIGHT', '\\#DD4814'), ('BYOBU_ACCENT', '\\#75507B'), ('BYOBU_CHARMAP', 'UTF-8'), ('BYOBU_READLINK', 'readlink'), ('BYOBU_DISTRO', 'Ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/ros_project/src/cpp_pubsub/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('BYOBU_DATE', '%Y-%m-%d'), ('BYOBU_PYTHON', 'python3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('BYOBU_CONFIG_DIR', '/root/.byobu'), ('BYOBU_PAGER', 'sensible-pager'), ('BYOBU_DARK', '\\#333333'), ('BYOBU_RUN_DIR', '/dev/shm/byobu--M2CWo49K'), ('PWD', '/ros_project/src/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('BYOBU_BACKEND', 'tmux'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/ros_project/src/cpp_pubsub/install/cpp_pubsub:/opt/ros/humble'), ('BYOBU_TTY', '/dev/pts/0')]), 'shell': False}
+[0.099474] (-) TimerEvent: {}
+[0.168952] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199659] (-) TimerEvent: {}
+[0.300217] (-) TimerEvent: {}
+[0.307252] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.325875] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400384] (-) TimerEvent: {}
+[0.499588] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500493] (-) TimerEvent: {}
+[0.515985] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.516847] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.517830] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.525603] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600690] (-) TimerEvent: {}
+[0.701258] (-) TimerEvent: {}
+[0.729592] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.746093] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.746878] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.747995] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.759227] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.801370] (-) TimerEvent: {}
+[0.901792] (-) TimerEvent: {}
+[1.002283] (-) TimerEvent: {}
+[1.102773] (-) TimerEvent: {}
+[1.129331] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.202934] (-) TimerEvent: {}
+[1.303494] (-) TimerEvent: {}
+[1.403972] (-) TimerEvent: {}
+[1.409309] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.504124] (-) TimerEvent: {}
+[1.556100] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.576422] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.604254] (-) TimerEvent: {}
+[1.605792] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.644730] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.696028] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.704381] (-) TimerEvent: {}
+[1.804806] (-) TimerEvent: {}
+[1.841307] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.851703] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.905101] (-) TimerEvent: {}
+[2.005470] (-) TimerEvent: {}
+[2.100329] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.105591] (-) TimerEvent: {}
+[2.181833] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.205751] (-) TimerEvent: {}
+[2.306192] (-) TimerEvent: {}
+[2.313990] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.349327] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.406395] (-) TimerEvent: {}
+[2.506893] (-) TimerEvent: {}
+[2.532164] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.533449] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.607063] (-) TimerEvent: {}
+[2.707530] (-) TimerEvent: {}
+[2.719676] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.722686] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.807687] (-) TimerEvent: {}
+[2.908148] (-) TimerEvent: {}
+[3.008595] (-) TimerEvent: {}
+[3.016961] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.051126] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[3.062958] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /ros_project/src/cpp_pubsub/build/cpp_pubsub\n'}
+[3.079254] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[3.080526] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[3.083417] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros_project/src/cpp_pubsub/build/cpp_pubsub', '--', '-j16', '-l16'], 'cwd': '/ros_project/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-0/default,1289,1'), ('BYOBU_SED', 'sed'), ('BYOBU_LIGHT', '\\#EEEEEE'), ('BYOBU_EDITOR', 'sensible-editor'), ('HOSTNAME', 'iwa-AUSU'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('BYOBU_TIME', '%H:%M:%S'), ('OLDPWD', '/ros_project/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('BYOBU_PREFIX', '/usr'), ('BYOBU_WINDOW_NAME', '-'), ('COLCON_PREFIX_PATH', '/ros_project/src/cpp_pubsub/install'), ('ROS_DISTRO', 'humble'), ('BYOBU_TERM', 'screen-256color'), ('BYOBU_ULIMIT', 'ulimit'), ('BYOBU_HIGHLIGHT', '\\#DD4814'), ('BYOBU_ACCENT', '\\#75507B'), ('BYOBU_CHARMAP', 'UTF-8'), ('BYOBU_READLINK', 'readlink'), ('BYOBU_DISTRO', 'Ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/ros_project/src/cpp_pubsub/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('BYOBU_DATE', '%Y-%m-%d'), ('BYOBU_PYTHON', 'python3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('BYOBU_CONFIG_DIR', '/root/.byobu'), ('BYOBU_PAGER', 'sensible-pager'), ('BYOBU_DARK', '\\#333333'), ('BYOBU_RUN_DIR', '/dev/shm/byobu--M2CWo49K'), ('PWD', '/ros_project/src/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('BYOBU_BACKEND', 'tmux'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/ros_project/src/cpp_pubsub/install/cpp_pubsub:/opt/ros/humble'), ('BYOBU_TTY', '/dev/pts/0')]), 'shell': False}
+[3.108719] (-) TimerEvent: {}
+[3.207222] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[3.207588] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[3.208843] (-) TimerEvent: {}
+[3.309296] (-) TimerEvent: {}
+[3.409742] (-) TimerEvent: {}
+[3.510185] (-) TimerEvent: {}
+[3.610663] (-) TimerEvent: {}
+[3.711128] (-) TimerEvent: {}
+[3.811592] (-) TimerEvent: {}
+[3.912093] (-) TimerEvent: {}
+[4.012583] (-) TimerEvent: {}
+[4.113081] (-) TimerEvent: {}
+[4.213546] (-) TimerEvent: {}
+[4.313990] (-) TimerEvent: {}
+[4.414471] (-) TimerEvent: {}
+[4.514952] (-) TimerEvent: {}
+[4.615481] (-) TimerEvent: {}
+[4.715966] (-) TimerEvent: {}
+[4.816459] (-) TimerEvent: {}
+[4.916938] (-) TimerEvent: {}
+[5.017513] (-) TimerEvent: {}
+[5.117979] (-) TimerEvent: {}
+[5.218465] (-) TimerEvent: {}
+[5.318914] (-) TimerEvent: {}
+[5.419470] (-) TimerEvent: {}
+[5.520071] (-) TimerEvent: {}
+[5.620659] (-) TimerEvent: {}
+[5.721274] (-) TimerEvent: {}
+[5.821797] (-) TimerEvent: {}
+[5.922353] (-) TimerEvent: {}
+[6.022896] (-) TimerEvent: {}
+[6.123567] (-) TimerEvent: {}
+[6.224012] (-) TimerEvent: {}
+[6.324521] (-) TimerEvent: {}
+[6.424970] (-) TimerEvent: {}
+[6.525504] (-) TimerEvent: {}
+[6.625964] (-) TimerEvent: {}
+[6.726456] (-) TimerEvent: {}
+[6.826904] (-) TimerEvent: {}
+[6.927449] (-) TimerEvent: {}
+[7.027939] (-) TimerEvent: {}
+[7.128413] (-) TimerEvent: {}
+[7.228875] (-) TimerEvent: {}
+[7.329411] (-) TimerEvent: {}
+[7.429952] (-) TimerEvent: {}
+[7.530512] (-) TimerEvent: {}
+[7.630978] (-) TimerEvent: {}
+[7.731577] (-) TimerEvent: {}
+[7.832016] (-) TimerEvent: {}
+[7.932500] (-) TimerEvent: {}
+[8.032978] (-) TimerEvent: {}
+[8.133417] (-) TimerEvent: {}
+[8.233822] (-) TimerEvent: {}
+[8.334252] (-) TimerEvent: {}
+[8.434679] (-) TimerEvent: {}
+[8.535142] (-) TimerEvent: {}
+[8.635556] (-) TimerEvent: {}
+[8.735959] (-) TimerEvent: {}
+[8.836406] (-) TimerEvent: {}
+[8.936813] (-) TimerEvent: {}
+[9.037291] (-) TimerEvent: {}
+[9.137697] (-) TimerEvent: {}
+[9.238127] (-) TimerEvent: {}
+[9.338540] (-) TimerEvent: {}
+[9.438949] (-) TimerEvent: {}
+[9.539423] (-) TimerEvent: {}
+[9.639818] (-) TimerEvent: {}
+[9.740242] (-) TimerEvent: {}
+[9.840642] (-) TimerEvent: {}
+[9.941086] (-) TimerEvent: {}
+[10.041517] (-) TimerEvent: {}
+[10.141916] (-) TimerEvent: {}
+[10.242334] (-) TimerEvent: {}
+[10.342754] (-) TimerEvent: {}
+[10.443167] (-) TimerEvent: {}
+[10.543584] (-) TimerEvent: {}
+[10.643978] (-) TimerEvent: {}
+[10.744404] (-) TimerEvent: {}
+[10.844826] (-) TimerEvent: {}
+[10.932700] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[10.944949] (-) TimerEvent: {}
+[11.045381] (-) TimerEvent: {}
+[11.145794] (-) TimerEvent: {}
+[11.215882] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[11.245938] (-) TimerEvent: {}
+[11.346483] (-) TimerEvent: {}
+[11.446901] (-) TimerEvent: {}
+[11.547344] (-) TimerEvent: {}
+[11.647768] (-) TimerEvent: {}
+[11.748196] (-) TimerEvent: {}
+[11.848616] (-) TimerEvent: {}
+[11.949066] (-) TimerEvent: {}
+[12.049492] (-) TimerEvent: {}
+[12.150379] (-) TimerEvent: {}
+[12.250813] (-) TimerEvent: {}
+[12.351231] (-) TimerEvent: {}
+[12.451638] (-) TimerEvent: {}
+[12.552068] (-) TimerEvent: {}
+[12.652746] (-) TimerEvent: {}
+[12.753239] (-) TimerEvent: {}
+[12.853641] (-) TimerEvent: {}
+[12.954060] (-) TimerEvent: {}
+[13.054477] (-) TimerEvent: {}
+[13.154864] (-) TimerEvent: {}
+[13.255349] (-) TimerEvent: {}
+[13.355783] (-) TimerEvent: {}
+[13.456268] (-) TimerEvent: {}
+[13.556666] (-) TimerEvent: {}
+[13.657302] (-) TimerEvent: {}
+[13.757722] (-) TimerEvent: {}
+[13.858321] (-) TimerEvent: {}
+[13.958711] (-) TimerEvent: {}
+[14.059118] (-) TimerEvent: {}
+[14.159675] (-) TimerEvent: {}
+[14.260112] (-) TimerEvent: {}
+[14.360514] (-) TimerEvent: {}
+[14.460904] (-) TimerEvent: {}
+[14.561316] (-) TimerEvent: {}
+[14.662216] (-) TimerEvent: {}
+[14.762638] (-) TimerEvent: {}
+[14.863029] (-) TimerEvent: {}
+[14.963438] (-) TimerEvent: {}
+[15.063826] (-) TimerEvent: {}
+[15.164446] (-) TimerEvent: {}
+[15.264879] (-) TimerEvent: {}
+[15.365253] (-) TimerEvent: {}
+[15.465619] (-) TimerEvent: {}
+[15.566006] (-) TimerEvent: {}
+[15.666459] (-) TimerEvent: {}
+[15.766879] (-) TimerEvent: {}
+[15.867546] (-) TimerEvent: {}
+[15.967943] (-) TimerEvent: {}
+[16.068316] (-) TimerEvent: {}
+[16.168709] (-) TimerEvent: {}
+[16.269160] (-) TimerEvent: {}
+[16.369560] (-) TimerEvent: {}
+[16.470016] (-) TimerEvent: {}
+[16.570607] (-) TimerEvent: {}
+[16.661404] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[16.670721] (-) TimerEvent: {}
+[16.771222] (-) TimerEvent: {}
+[16.871725] (-) TimerEvent: {}
+[16.972248] (-) TimerEvent: {}
+[17.072669] (-) TimerEvent: {}
+[17.173140] (-) TimerEvent: {}
+[17.257173] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[17.273284] (-) TimerEvent: {}
+[17.279895] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[17.281276] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[17.300488] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros_project/src/cpp_pubsub/build/cpp_pubsub'], 'cwd': '/ros_project/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-0/default,1289,1'), ('BYOBU_SED', 'sed'), ('BYOBU_LIGHT', '\\#EEEEEE'), ('BYOBU_EDITOR', 'sensible-editor'), ('HOSTNAME', 'iwa-AUSU'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('BYOBU_TIME', '%H:%M:%S'), ('OLDPWD', '/ros_project/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('BYOBU_PREFIX', '/usr'), ('BYOBU_WINDOW_NAME', '-'), ('COLCON_PREFIX_PATH', '/ros_project/src/cpp_pubsub/install'), ('ROS_DISTRO', 'humble'), ('BYOBU_TERM', 'screen-256color'), ('BYOBU_ULIMIT', 'ulimit'), ('BYOBU_HIGHLIGHT', '\\#DD4814'), ('BYOBU_ACCENT', '\\#75507B'), ('BYOBU_CHARMAP', 'UTF-8'), ('BYOBU_READLINK', 'readlink'), ('BYOBU_DISTRO', 'Ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/ros_project/src/cpp_pubsub/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('BYOBU_DATE', '%Y-%m-%d'), ('BYOBU_PYTHON', 'python3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('BYOBU_CONFIG_DIR', '/root/.byobu'), ('BYOBU_PAGER', 'sensible-pager'), ('BYOBU_DARK', '\\#333333'), ('BYOBU_RUN_DIR', '/dev/shm/byobu--M2CWo49K'), ('PWD', '/ros_project/src/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('BYOBU_BACKEND', 'tmux'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/ros_project/src/cpp_pubsub/install/cpp_pubsub:/opt/ros/humble'), ('BYOBU_TTY', '/dev/pts/0')]), 'shell': False}
+[17.317634] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.318069] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[17.321126] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/ros_project/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[17.321466] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[17.330849] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/ros_project/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[17.331494] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[17.332415] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[17.333116] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[17.333602] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[17.334063] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[17.334565] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[17.335111] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[17.335545] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[17.336030] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[17.336494] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[17.336924] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[17.337483] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[17.338070] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[17.338461] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[17.338838] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /ros_project/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[17.343495] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[17.373464] (-) TimerEvent: {}
+[17.376789] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[17.379297] (-) EventReactorShutdown: {}
