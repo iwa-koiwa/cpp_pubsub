@@ -5,3 +5,5 @@ colcon build --packages-select cpp_pubsub
 source install/setup.bash
 
 ros2 run cpp_pubsub talker
+
+ros2 run cpp_pubsub  listener
